@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Poppins&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nova+Square&family=Poppins&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+.Logo > h4 {
+  letter-spacing: 1px;
+  font-size:20px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  left:10px;
+
+}
+
+.screen_requirement{
+  display:none;
+}
+@media screen and (max-width:768px){
+.ProfilePhoBlob{
+  display:none;
+}
+.Logo{
+  display: none;
+}
+.Main_Text{
+  display:none;
+}
+.Myface{
+  display: none;
+}
+.experienced{
+  display:none;
+}
+.Content > .Projects > .ColourChangerDiv > img{
+  width:250px;
+}
+.Projects{
+  display:none;
+}
+.Follow{
+  display:none;
+}
+  .screen_requirement{
+    display:block;
+    color:white;
+  }
+  
+}
+@media screen and (min-width:768px){
+body{
+  margin: 0 auto;
+}
+}
+hr{
+  display: none;
+}
+::-webkit-scrollbar{
+
+  display: none;
+}
+.Logo{
+  position: relative;
+  bottom:10px;
+  font-family: 'League Spartan';
+}
+.Header{
+  font-family: 'League Spartan';
+  
+}
+.Content{
+  position:relative;
+  top:100px;
+}
+ .projects{
+  border:none;
+  background-color: transparent;
+  color:white;
+  font-weight: 100;
+  font-size: 15px;
+  position: relative;
+  left:750px;
+ top:-60px;
+ font-family: 'Lato', sans-serif;
+}
+.projects:hover{
+  cursor: pointer;
+  font-weight: bolder;
+}
+.ProfilePhoBlob > svg{
+  height:150px;
+  position: relative;
+  top:280px;
+  left:500px;
+  filter: blur(2px);
+
+}
+a{
+ text-decoration: none;
+  color: white;
+}
+.experienced >  img{
+  height:50px;
+}
+hr{
+  position: relative;
+  top:-440px;
+  opacity: .2;
+  width:800px;
+}
+.experienced > .last_img > img{
+  height:50px;
+  position: relative;
+  bottom:435px;
+  left:610px;
+}
+.experienced > span{
+  font-family: 'Trade-Winds','sans-serif';
+  font-style: italic;
+  color: white;
+  position:relative;
+  bottom:400px;
+  background: -webkit-linear-gradient(#c53180, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  left:200px;
+}
+.experienced > img{
+  position: relative;
+  bottom:380px;
+  left:200px;
+}
+ .Myface > img{
+  height:180px;
+  position: relative;
+  left:590px;
+ bottom:400px;
+  animation: animate 7s ease-in-out infinite;
+  
+}
+.sub_class > h5{
+  background: -webkit-linear-gradient(#ffffff, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Titillium Web', sans-serif;
+  position: relative;
+  bottom: 30px;
+  left:20px;
+}
+.Main_Text{
+  position:relative;
+  top:-200px;
+  left:280px;
+  font-size: 30px;
+  background: -webkit-linear-gradient(#c53180, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Titillium Web', sans-serif;
+
+  width:470px;
+}
+.Myface > img{
+ border:2px solid white;
+}
+@keyframes animate{
+  0%{
+    border-radius: 80% 20% 30% 70% / 70% 50% 40% 60%;
+  }
+  25%{
+    border-radius: 90% 20% 30% 70% / 50% 10% 40% 30%;
+  }
+  50%{
+    border-radius: 40% 20% 30% 70% / 70% 30% 40% 60%;
+  }
+  80%{
+    border-radius: 10% 60% 30% 70% / 10% 10% 40% 30%;
+  }
+  100%{
+    border-radius: 70% 100% 100% 100% / 90% 10% 100% 100%;
+  }
+}
+.follow{
+  border:none;
+  background-color: transparent;
+  color:white;
+font-weight: lighter;
+  font-size: 15px;
+  position: relative;
+  left:750px;
+ top:-60px;
+ font-family: 'Lato', sans-serif;
+}
+.Follow{
+  color: white;
+  position: relative;
+  bottom:600px;
+  left:400px;
+ 
+  width: 200px;
+}
+
+.Follow > a> img {
+  height:60px;
+  position: relative;
+  left:50px;
+}
+
+.hr2{
+  position:relative;
+  top:-600px;
+}
+.follow:hover{
+  cursor:pointer;
+  font-weight: bolder;
+}
+
+.Header{
+  position: fixed;
+  height:10vh;
+}
+body{
+  background-color: #292727;
+}
+.Projects > .ColourChangerDiv > img{
+  height:200px;
+  position:relative;
+  left:20px;
+  top:-450px;
+  border-radius: 20px;
+  width:350px;
+}
+.ViewLive{
+ border:none;
+ background:transparent;
+ position:relative;
+ top:-630px;
+ left:300px;
+ background: -webkit-linear-gradient(#091fe7, #ebebeb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid white;
+}
+.ViewLive:hover{
+cursor: pointer;
+}
+.ViewSourceCode:hover{
+cursor: pointer;
+}
+.ViewSourceCode{
+
+  border:none;
+  background:transparent;
+  position:relative;
+  top:-630px;
+  left:320px;
+  background: -webkit-linear-gradient(#091fe7, #ebebeb);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   border: 1px solid white;
+}
+.ViewSourceCode > img{
+  color:white;
+}
+.ColourChangerDiv > h4{
+  color:white;
+  position:relative;
+  top:-680px;
+  left:550px;
+}
+.ColourChangerDiv > span{
+  color:white;
+  position:relative;
+  top:-680px;
+  left:490px;
+}
+.Projects > h3{
+  background: -webkit-linear-gradient(#c53180, #ebebeb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  top:-450px;
+  left:400px;
+}
